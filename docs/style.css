@@ -329,7 +329,9 @@ blockquote {
 
 .copy-icon {
   position: relative;
-  height: 10px;
+  height: 15px;
+  width: 8px;
+  border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   align-self: center;
   outline: none;
@@ -342,6 +344,7 @@ blockquote {
 .copy-icon::before {
   content: '';
   position: absolute;
+  border-radius: 2px;
   right: -4px;
   top: -4px;
   width: 120%;
